@@ -1,0 +1,174 @@
+/*****************Body Styling*******************/
+body{
+    font-family: 'Lato', 'Lucida Grande', 'Lucida Sans Unicode', Tahoma, Sans-Serif;
+    color: white;
+    padding: 0;
+    background: url(https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?cs=srgb&dl=pexels-abdullah-ghatasheh-1631677.jpg&fm=jpg);
+    overflow-y: scroll;  
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center; 
+}
+/*****************Header Styling*******************/
+header{
+    background-color:#af3c4d;
+    color:white;
+    position:fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+}
+
+header h1{
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 3px 3px;
+    display: inline-block;
+    font-size: 15px;
+}
+/******************Boxes Styling*******************/
+.box{
+    width: 350px;
+    background: #af3c4d;
+    padding: 25px;
+    text-align: center;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-top: 2%;
+    color: white;
+    display: inline-block;
+    box-shadow: 0px -1px 6px 6px #ffffff;
+    border-radius: 15px;
+    margin: 40px 35px;
+    max-width: 30%;     
+}
+
+.box p{
+    text-align: justify;
+    line-height: 1.5em;
+}
+
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+}
+
+.box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    transition: all ease-in-out 250ms;
+}
+
+.box h3{
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+.box h4{
+    font-size: 18px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box li a:hover{
+    color:#e09163;
+}
+/***************The welcoming Sentence Styling**********************/
+.WelcomingSent{
+
+    padding: 4px;
+    position: sticky;
+    top: 20px;
+    color:rgba(31, 30, 30, 0.795);
+   
+}
+
+.banner h2 span{
+
+    /* 1.4 times of the previus size */
+    font-size: 1.5em;
+    color:#0757ad;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white;
+
+}
+/******************Images Styling***********************/
+.imgs{
+    text-align: center;
+    white-space: nowrap;
+    margin: 80px 0;
+}
+
+.imgs li{
+    display: inline-block;
+    width: 40%;
+    margin: 20px 5%; 
+}
+
+.imgs li img{
+    max-width: 100%; 
+}
+/******************Site & HTML File Styling********************/
+.linked a {
+    border:3px solid white;  
+    border-radius: 15px;
+    background-color: #af3c4d;
+    color:white;
+    text-decoration: none;
+    padding: 3px 3px 3px 3px;
+}
+/**********************************************/
+
+@media screen and (max-width:1000px){
+
+    .WelcomingSent h2{
+        font-size:15px;
+    }
+    .box p{
+        font-size:15px;
+    }
+    .box h3{
+        font-size:15px;
+    }  
+    .box h4{
+        font-size:15px;
+    }
+    .linked p{
+        font-size: 10px;
+    }    
+}
+
+@media screen and ( max-width:700px ) {
+
+    .WelcomingSent h2{
+        font-size:13px;
+    }
+    .box p{
+        font-size:12px;
+    }
+    .box h3{
+        font-size:13px;
+    }   
+    .box h4{
+        font-size:12px;
+    } 
+    .linked p{
+        font-size: 5px;
+    } 
+}
+/*The css file of the Webpage ends here. 
+ Lojain Abdalrazaq-1190707
+   Aseel Deek-1190587
+   Mariam Taweel-1192099
+*/
